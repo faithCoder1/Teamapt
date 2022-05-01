@@ -1,11 +1,9 @@
 #####import necessary modules
 import pandas as pd
 import numpy as np
-import plotly.graph_objects as go
 import matplotlib.pyplot as plt
 import streamlit as st
 import joblib as jb
-import logging
 
 ####streamlit settings for sidebar and main page
 st.title("Mobile phone number summary report")
