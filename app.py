@@ -11,7 +11,7 @@ st.header("Made by Oluyemisi Yesufu ")
 st.sidebar.markdown('<p class="header-style">Mobile number data summary</p>',
             unsafe_allow_html=True
         )
-pred_num = str(st.sidebar.number_input('Type in the number(neglect the first zero)',min_value=7000000000,max_value=9999999999
+pred_num = str(st.sidebar.number_input('Type in the number',min_value=7000000000,max_value=9999999999
          ))
 output = ''
 if pred_num[0:3] in ['703','704','706','803','806','810','813','814','816','903','906','913','916']:
