@@ -28,7 +28,7 @@ elif pred_num[0:3] in ['804']:
     output ='MTEL'
 else:
     output ='invalid'
-st.sidebar.text("This is an "+ output+ " number ")        
+st.sidebar.text(output+ " number ")        
 Service_providers = st.sidebar.selectbox('Name Of Service provider',
            ['MTN', 'Airtel', '9mobile', 'Globacom', 'MTEL']
         )
