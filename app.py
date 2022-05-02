@@ -47,7 +47,7 @@ st.write(pd.DataFrame({
 fig1, ax1 = plt.subplots()
 explode = (0.1, 0, 0, 0,0)
 ax1.pie(servce_summ, explode=explode, labels=['MTN', 'Airtel', '9mobile', 'Globacom', 'MTEL'],
-        shadow=False, startangle=90,colors=['yellow','red','#99ff99','#green','black'].reshape(-1,4))
+        shadow=False, startangle=90,colors=['yellow','red','#99ff99','#green','black'].reshape(-1,5))
 ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
 
 st.pyplot(fig1)
